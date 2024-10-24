@@ -1,0 +1,60 @@
+ *{
+    margin: 0;
+    padding: 0;
+
+
+ }
+ h1{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+ .choice{
+    height: 350px;
+    width: 300px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 1px;
+    border-radius: 50%;
+ }
+ .choice:hover{
+    opacity: 0.5;
+
+ }
+ .scorecard{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    gap: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .massagecontainer{
+   
+   text-align: center;
+   margin-top: 3rem;
+ }
+ #msg{
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 2rem;
+    align-items: center;
+   
+    
+ }
+ img{
+    height: 350px;
+    width: 300px;
+    object-fit: fills;
+    margin-left: 3rem;
+    border-radius: 50%;
+ }
